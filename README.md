@@ -6,7 +6,7 @@ A project developed in the Bio-IT FAIR Data Hackathon
 ## Self-evaluation
 How well does ClinVar data align with FAIR data principles?  
 
-For each of the 15 FAIR principles, rate your dataset before and after your hackathon work.  
+For each of the 15 FAIR principles, rate your dataset before and after your hackathon work.  A rating of "1" is least FAIR; "5" is most FAIR.
 
 ### Findable
 > F1. (meta)data are assigned a globally unique and persistent identifier
