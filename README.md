@@ -53,79 +53,79 @@ For each of the 15 FAIR principles, rate your dataset before and after your hack
 
 ### Findable
 > F1. (meta)data are assigned a globally unique and persistent identifier
-* Before: 
-* After:
-* Comment:
+* *Before: 2* 
+    * Locally unique identifier.
+    * Persistent URL link missing.
+* After: 
 
 > F2. data are described with rich metadata (defined by R1 below)
-* Before: 
+* *Before: 4.*  
+  * Around 60 lines of metadata within the same data file.  
+  * Figuring out the metadata is needs to go through the data dictionary which is multiple pages.
 * After:
-* Comment:
 
 > F3. metadata clearly and explicitly include the identifier of the data it describes
-* Before: 
-* After:
-* Comment:
+* Before: 5
+    * Each line contains identifiers for diseases, syndromes, etc within the NCBI. 
+    * Clear linking between the metadata and data.
+* After: 
 
 > F4. (meta)data are registered or indexed in a searchable resource
-* Before: 
+* Before: 5
+    * The NCBI is quite sufficient with regard to being searchable. 
 * After:
-* Comment:
 
 ### Accessible
 > A1. (meta)data are retrievable by their identifier using a standardized communications protocol
-* Before: 
+* Before: 5
+    * NCBI has identifiers based on which data can be retrieved.
 * After:
-* Comment:
 
 > A1.1 the protocol is open, free, and universally implementable
-* Before: 
+* Before: 5
+    * API info is readily available.
 * After:
-* Comment:
 
 > A1.2 the protocol allows for an authentication and authorization procedure, where necessary
-* Before: 
+* Before: 1
+    * No authentication and authorization when required.
 * After:
-* Comment:
 
 > A2. metadata are accessible, even when the data are no longer available
-* Before: 
+* Before: 1
+    * Metadata and data are in the same file.
 * After:
-* Comment:
 
 ### Interoperable
 > I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
-* Before: 
+* Before: 1
 * After:
-* Comment:
 
 > I2. (meta)data use vocabularies that follow FAIR principles
-* Before: 
+* Before: 3
+    * Not globally unique locally unique though.
 * After:
-* Comment:
 
 > I3. (meta)data include qualified references to other (meta)data
-* Before: 
+* Before: 5
 * After:
-* Comment:
 
 ### Reusable
 > R1. meta(data) are richly described with a plurality of accurate and relevant attributes
-* Before: 
+* Before: 2
 * After:
-* Comment:
 
 > R1.1. (meta)data are released with a clear and accessible data usage license
-* Before: 
+* Before: 5
+    * Public data
 * After:
-* Comment:
 
 > R1.2. (meta)data are associated with detailed provenance
-* Before: 
+* Before: 5
+    * Dataset completely associated with version history by the NCBI
 * After:
-* Comment:
 
 > R1.3. (meta)data meet domain-relevant community standards
-* Before: 
+* Before: 5
+    * Set up by the NCBI
 * After:
-* Comment:
