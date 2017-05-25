@@ -16,6 +16,8 @@ We found that the main vcf file contains both the whole database (over 200,000 e
 Since the metadata is incorporated into the file, we needed to trim the file to a proof of concept csv for FAIRizing,
 while including the meta-data names as header names in the tsv file.
 
+![title](screen1.png)
+
 ### Our initial FAIR assessment:
 1. No Globally unique identifiers
 2. Metadata and data in same file, therefore:
