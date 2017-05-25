@@ -1,7 +1,50 @@
 # fair-clinvar
 [![Gitter](https://badges.gitter.im/bioithackathons/project-1.svg)](https://gitter.im/bioithackathons/project-1)
 
-A project developed in the Bio-IT FAIR Data Hackathon
+The ClinVar database (https://www.ncbi.nlm.nih.gov/clinvar/) is a public repository of submissions from researchers on the genetic variants known in the human genome, and their assocciated diseases. The whole database can be downloaded as one gzip file in several formats, including vcf and xml. While deeply informative, this database is currently best used only on the NCBI website, and the relationships between meta-data are unclear. The database is also continually updated, (some portions daily), and the new database files are updated monthly. Therefore, we also wanted clear documentation on what we did and why. This way the method could be repeated with the new version of the database, and strengthen the arguement for changing how the database is generate/released.
+
+This project was developed in the [2017 Bio-IT FAIR Data Hackathon](http://www.bio-itworldexpo.com/fair-data-hackathon/).
+
+## Goals:
+- Assess the FAIR qualities of the NCBI ClinVAR database according to the 15 FAIR principles
+- Wrangle the database, and process using the FAIRifier (https://bioit.fair-dtls.surf-hosted.nl/fairifier/)
+- Correct deficenies in the FAIRness of the database
+- Create a relational scheme for the subjects (variables) in the file
+
+## Pre-processing
+We found that the main vcf file contains both the whole database (over 200,000 entries and 58 columns)
+Since the metadata is incorporated into the file, we needed to trim the file to a proof of concept csv for FAIRizing,
+while including the meta-data names as header names in the tsv file.
+
+### Our initial FAIR assessment:
+1. No Globally unique identifiers
+2. Metadata and data in same file, therefore:
+3. No metadata access when data is no longer available
+4. Metadata doesn't use a broadly accessible language (assuming RDF was what was required)
+5. Metadata using FAIR vocabularies - I don't think so.
+6. Metadata doesn't have a complete versioning history but has some form of detailed provenance.
+7. We question the, "metadata is richly described with a plurality of accurate and relevant attributes."
+
+### TSV proof-of-concept file made using python
+
+### FAIRification
+We submited the tsv file to the fairifier
+
+The CLNACC field, which is RCV#, was used to make a new column for the persistent ID like https://www.ncbi.nlm.nih.gov/clinvar/RCV000148988/
+
+### Relational scheme
+### 30,000 ft view
+## Using common terms
+![title](RDFmap_v1.png)
+## Using the metadata labels
+![title](RDFmap_v2.png)
+
+We are working on the RDF file now.
+
+# Future directions
+* Create RDF file with complete meta-data associations (~58) **include stakeholder engagment**
+* Improve machine interoperability
+* Test ML classifiers based on the relations
 
 ## Self-evaluation
 How well does ClinVar data align with FAIR data principles?  
