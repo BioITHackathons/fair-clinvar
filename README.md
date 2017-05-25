@@ -12,6 +12,7 @@ This project was developed in the [2017 Bio-IT FAIR Data Hackathon](http://www.b
 - Create a relational scheme for the subjects (variables) in the file
 
 ## Pre-processing
+
 We found that the main vcf file contains both the whole database (over 200,000 entries and 58 columns)
 Since the metadata is incorporated into the file, we needed to trim the file to a proof of concept csv for FAIRizing,
 while including the meta-data names as header names in the tsv file.
@@ -28,6 +29,8 @@ while including the meta-data names as header names in the tsv file.
 7. We question the, "metadata is richly described with a plurality of accurate and relevant attributes."
 
 ### TSV proof-of-concept file made using python
+
+Python script vcfparser.py 
 
 ### FAIRification
 We submited the tsv file to the fairifier
