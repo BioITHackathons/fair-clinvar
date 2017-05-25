@@ -46,6 +46,8 @@ The CLNACC field, which is RCV#, was used to make a new column for the persisten
 
 We are working on the RDF file now.
 
+![title](screen2.png)
+
 # Future directions
 * Create RDF file with complete meta-data associations (~58) **include stakeholder engagment**
 * Improve machine interoperability
