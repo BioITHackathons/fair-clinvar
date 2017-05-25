@@ -24,8 +24,11 @@ def extractInfoString( info ):
 
 
 #Adding global unique identifier
-    clinaccs = "https://www.ncbi.nlm.nih.gov/clinvar/" + clinaccs.split('|')[0];
-	result.append( clinallele_index.replace('\n','') )
+    clinaccs = clinaccs.split('|')[0];
+    clinaccs = clinaccs.split(' ')[0];
+    clinaccs = "https://www.ncbi.nlm.nih.gov/clinvar/" + clinaccs;
+
+    result.append( clinallele_index.replace('\n','') )
 	result.append( diseases.replace('\n','') )
 	result.append( clinsigs.replace('\n','') )
 	result.append( clinrevstats.replace('\n','') )
