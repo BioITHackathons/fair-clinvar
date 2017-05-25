@@ -22,6 +22,9 @@ def extractInfoString( info ):
 	else:
 		gene = ""
 
+
+#Adding global unique identifier
+    clinaccs = "https://www.ncbi.nlm.nih.gov/clinvar/" + clinaccs.split('|')[0];
 	result.append( clinallele_index.replace('\n','') )
 	result.append( diseases.replace('\n','') )
 	result.append( clinsigs.replace('\n','') )
