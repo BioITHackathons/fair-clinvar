@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:so=""
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/0">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000162196.3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/1">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000148989.5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/2">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000148988.5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/3">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000116272.4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/4">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000193277.2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/5">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000250556.1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/6">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000235037.1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/7">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000116258.3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/8">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000235021.1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/9">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000195231.2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/10">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000241878.1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/11">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000246662.1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/12">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000249809.1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/13">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000116282.1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/14">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000114428.4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/15">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000116253.2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/16">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000243499.2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/17">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000116254.2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://bioit.fair-dtls.surf-hosted.nl/18">
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001506"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000735"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0001771"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000694"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<dcterms:identifier rdf:resource="https://www.ncbi.nlm.nih.gov/clinvar/RCV000235036.1"/>
+</rdf:Description>
+
+</rdf:RDF>
