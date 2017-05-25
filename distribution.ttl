@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#>.
+@prefix datacite: <http://purl.org/spar/datacite/>.
+
+<> rdf:type dcat:Distribution;
+    dct:title "ClinVar";
+    dct:license <http://purl.org/NET/rdflicense/cc-zero1.0>;
+    dct:hasVersion "Yes";
+    dcat:downloadURL <https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz>;
+    dcat:mediaType "vcf".
