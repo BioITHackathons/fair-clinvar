@@ -1,4 +1,9 @@
+# fair-clinvar
+[![Gitter](https://badges.gitter.im/bioithackathons/project-1.svg)](https://gitter.im/bioithackathons/project-1)
+
 The ClinVar database (https://www.ncbi.nlm.nih.gov/clinvar/) is a public repository of submissions from researchers on the genetic variants known in the human genome, and their assocciated diseases. The whole database can be downloaded as one gzip file in several formats, including vcf and xml. While deeply informative, this database is currently best used only on the NCBI website, and the relationships between meta-data are unclear. The database is also continually updated, (some portions daily), and the new database files are updated monthly. Therefore, we also wanted clear documentation on what we did and why. This way the method could be repeated with the new version of the database, and strengthen the arguement for changing how the database is generate/released.
+
+This project was developed in the [2017 Bio-IT FAIR Data Hackathon](http://www.bio-itworldexpo.com/fair-data-hackathon/).
 
 ## Goals:
 - Assess the FAIR qualities of the NCBI ClinVAR database according to the 15 FAIR principles
@@ -40,27 +45,6 @@ We are working on the RDF file now.
 * Create RDF file with complete meta-data associations (~58) **include stakeholder engagment**
 * Improve machine interoperability
 * Test ML classifiers based on the relations
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# fair-clinvar
-[![Gitter](https://badges.gitter.im/bioithackathons/project-1.svg)](https://gitter.im/bioithackathons/project-1)
-
-A project developed in the Bio-IT FAIR Data Hackathon
 
 ## Self-evaluation
 How well does ClinVar data align with FAIR data principles?  
