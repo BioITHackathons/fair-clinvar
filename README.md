@@ -56,76 +56,88 @@ For each of the 15 FAIR principles, rate your dataset before and after your hack
 * *Before: 2* 
     * Locally unique identifier.
     * Persistent URL link missing.
-* After: 
+* After: 5
+* Comment: We have assigned the RCVs as the new globally unique and persistent identifiers for the dataset
 
 > F2. data are described with rich metadata (defined by R1 below)
 * *Before: 4.*  
   * Around 60 lines of metadata within the same data file.  
   * Figuring out the metadata is needs to go through the data dictionary which is multiple pages.
-* After:
+* After: 4
+* Comment: Data has metadata which is sufficient and with a data dictionary
 
 > F3. metadata clearly and explicitly include the identifier of the data it describes
 * Before: 5
     * Each line contains identifiers for diseases, syndromes, etc within the NCBI. 
     * Clear linking between the metadata and data.
-* After: 
+* After: 5
+* Comment: NCBI has identifiers for diseases and syndromes with clear links between the metadata and data.
 
 > F4. (meta)data are registered or indexed in a searchable resource
 * Before: 5
     * The NCBI is quite sufficient with regard to being searchable. 
-* After:
+* After: 5
+* Comment: Data is easily available on the NCBI website
 
 ### Accessible
 > A1. (meta)data are retrievable by their identifier using a standardized communications protocol
 * Before: 5
     * NCBI has identifiers based on which data can be retrieved.
-* After:
+* After: 5
+* Comment: NCBI has retrievable methods using REST calls.
 
 > A1.1 the protocol is open, free, and universally implementable
 * Before: 5
     * API info is readily available.
-* After:
+* After: 5
+* Comment: Yes, the NCBI handles this part.
 
 > A1.2 the protocol allows for an authentication and authorization procedure, where necessary
 * Before: 1
     * No authentication and authorization when required.
-* After:
+* After: 1
+* Comment: No authentication or authorization required
 
 > A2. metadata are accessible, even when the data are no longer available
 * Before: 1
     * Metadata and data are in the same file.
-* After:
+* After: 3
+* Comment: Low utility as the data is a reported variant, closer to a concept of observation.
 
 ### Interoperable
 > I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
 * Before: 1
-* After:
+* After: 4
+* Comment: We have the metadata that might not be broadly applicable but has all the other required knowledge representation
 
 > I2. (meta)data use vocabularies that follow FAIR principles
 * Before: 3
     * Not globally unique locally unique though.
-* After:
+* After: 4
+* Comment: Globally unique identifiers appended to the dataset to make it FAIR compliant
 
 > I3. (meta)data include qualified references to other (meta)data
 * Before: 5
-* After:
+* After: 5
+* Comment: NCBI provides data that’s clearly linked and easily referenced 
 
 ### Reusable
 > R1. meta(data) are richly described with a plurality of accurate and relevant attributes
 * Before: 2
-* After:
+* After: 4
+* Comment: With the RDF, the data is processed and clearly specified for reuse.
 
 > R1.1. (meta)data are released with a clear and accessible data usage license
 * Before: 5
     * Public data
-* After:
+* After: 5
 
 > R1.2. (meta)data are associated with detailed provenance
 * Before: 5
     * Dataset completely associated with version history by the NCBI
-* After:
+* After: 5
 
 > R1.3. (meta)data meet domain-relevant community standards
 * Before: 5
     * Set up by the NCBI
-* After:
+* After: 5
